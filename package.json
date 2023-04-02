@@ -1,0 +1,39 @@
+{
+  "name": "shorts",
+  "version": "1.0.0",
+  "description": "<---description--->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kanwarpal-Singh/Shorts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kanwarpal-Singh/Shorts/issues"
+  },
+  "homepage": "https://github.com/Kanwarpal-Singh/Shorts#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "blacklist": "^1.1.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "generate-otp": "^1.0.6",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "qrcode": "^1.5.1",
+    "shortid": "^2.2.16"
+  }
+}
