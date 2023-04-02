@@ -23,6 +23,9 @@ app.use("/user",userRouter)
 app.use("/qr",qrRouter)
 app.use("/url",urlRouter)
 
+app.get("/",(req,res)=>{
+  res.send("Welcome Home")
+})
 ///Google-OAuth part
 
 app.get('/auth/google',
