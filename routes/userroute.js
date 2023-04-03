@@ -23,7 +23,9 @@ sendgrid.setApiKey(process.env.apikey)
 const userRouter = express.Router()
 
 
-
+userRouter.get("/get",(req,res)=>{
+    res.redirect("https://chipper-haupia-75bf63.netlify.app/create.html")
+})
 
 userRouter.post("/sign_up",async(req,res)=>{
    try{
